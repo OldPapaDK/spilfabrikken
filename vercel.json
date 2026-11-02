@@ -10,6 +10,10 @@
   },
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/api/router"
+    },
+    {
       "source": "/:path*",
       "destination": "/api/router?route=:path*"
     }
